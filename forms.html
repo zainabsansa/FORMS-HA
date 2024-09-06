@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms and Buttons</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form">
+        <form>
+   <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="First name:" placeholder="First name" required> <br><br>
+   <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="Last name" placeholder="Lastname" required> <br><br>
+      <label="email">Email Address:</label>
+      <input type="email" id="email" name="Email Address:" placeholder="Your Email Address" required> <br><br>
+      
+   <label for="gender">Gender:</label>
+   <label for="male">Male</label>
+   <input type="radio" id="male" name="Gender">
+   <label for="female">Female</label>
+   <input type="radio" id="Female" name="Gender"> <br><br>
+   <label for="age">Age:</label>
+   <input type="number" id="age" name="Age">
+   <br><br>
+   <label for="dob">Date of Birth:</label>
+   <input type="date" id="dob" name="dob" required> <br><br>
+  <!--<label for="states">State of Origin:</label>
+   <select id="states" name="states">
+       <option type="select" selected>Select State</option>
+       <option value="abia">Abia</option>
+       <option value="adamawa">Adamawa</option>
+       <option value="akwa ibom">Akwa Ibom</option>
+       <option value="anambra">Anambra</option>
+       <option value="bauchi">Bauchi</option>
+   </select> <br><br> --> 
+   <label for="psw">Password:</label>
+   <input type="password" id="psw" name="Password:" placeholder="min. of 6 xters, uppercase,lowercase, 2 digits" pattern="(?=.*[A-Z])(?=.*[a-z]).{8,}(?=*\d).{1,2}" title="min.of 6 xters at least an uppercase, a lowercase and 2 digits" required> <br><br>
+   <label for="uoc">University of choice:</label> <br><br>
+   <input type="checkbox" id="lasu">
+   <label for="lasu">Lagos State University</label> <br>
+   <input type="checkbox" id="unilag">
+   <label for="unilag">University of Lagos </label> <br>
+   <input type="checkbox" id="unilorin">
+   <label for="unilorin"> University of Ilorin</label> <br>
+   
+   
+  <br><br> <button type="submit">Register</button>
+        </form>
+        </div>
+    </body>
+</html>

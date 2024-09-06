@@ -1,0 +1,19 @@
+  form{
+    background-color: black;
+    opacity:80%;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+input{
+    text-align:center;
+    border:none;
+    background: transparent;
+    border-bottom:2px solid white;
+}
+button{
+    background: purple;
+    width:100px;
+    height:30px;
+    font-size:20px ;
+}
